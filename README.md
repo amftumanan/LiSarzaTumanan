@@ -14,7 +14,7 @@ Created wireframe for the homepage, the first character page, and the second cha
 
 9/23/2022
 
-Created placeholder icon.
+Created placeholder icon.  **from Mrs. mendoza - no outline and wireframes submitted**
 
 Created third and fourth character page.
 
