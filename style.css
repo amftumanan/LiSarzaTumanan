@@ -1,0 +1,75 @@
+* {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: helvetica;
+  background-image: url('images/Background.png');
+}
+
+hr {
+  width: 200%;
+  color: black;
+}
+
+h1 {
+  font-family: arial;
+}
+
+h2 {
+  font-family: arial; 
+}
+
+h3 {
+  font-family:"Monaco";
+}
+
+h4 {
+  font-family: arial;
+  background: lime;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 80%
+}
+
+tr.character {
+  font-family: arial;
+  background-color: cyan;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sans {
+  font-family: Comic Sans MS;
+  color: white;
+  background: black;
+  text-align: left;
+}
+
+.undertale {
+  font-family: Consolas;
+  color: white;
+  background: black;
+  text-align: left;
+}
+
+.characters {
+  position: absolute;
+  top: 26px;
+  left: 140px;
+}
+
+#foot {
+  position: relative;
+  float: bottom;
+}
