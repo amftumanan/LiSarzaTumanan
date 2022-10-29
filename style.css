@@ -10,7 +10,7 @@ html, body {
 }
 
 hr {
-  width: 200%;
+  width: 100%;
   color: black;
 }
 
@@ -31,7 +31,7 @@ h4 {
   background: lime;
 }
 
-table, th, td {
+table, th {
   border: 1px solid black;
   border-collapse: collapse;
   width: 80%
@@ -56,6 +56,13 @@ tr.character {
   text-align: left;
 }
 
+.papyrus {
+  font-family: Papyrus;
+  color: white;
+  background: black;
+  text-align: left;
+}
+
 .undertale {
   font-family: Consolas;
   color: white;
@@ -65,11 +72,38 @@ tr.character {
 
 .characters {
   position: absolute;
-  top: 26px;
-  left: 140px;
+  top: 30px;
+  left: 130px;
+}
+
+.headerlinks:hover {
+  filter: brightness(150%);
 }
 
 #foot {
   position: relative;
   float: bottom;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#container {  
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+#container div {
+  float: left;
+  background-color: #c1eefe;
+  border: 1px solid #0047ff;
+  font-weight: bold;
+  width: 25%;
+  font-size: 200%;
+  text-align: center;
 }
