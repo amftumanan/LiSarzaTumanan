@@ -1,0 +1,62 @@
+* {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Consolas;
+  background-color: black;
+  color: white;
+}
+
+.sans {
+  position: absolute;
+  left: 670px;
+  top: 10px;
+  height: 190px;
+}
+
+.exusiai {
+  position: absolute;
+  right: 180px;
+  top: 250px;
+  height: 150px;
+  transform: scaleX(-1);
+}
+
+.mika {
+  position: absolute;
+  left: 120px;
+  top: 200px;
+  height: 120px;
+}
+
+img.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  z-index: 1;
+}
+
+p.logo {
+  position: absolute;
+  top: 0px;
+  width: 100px;
+  z-index: 0;
+}
+
+img.logo:hover {
+  opacity: 0;
+}
+
+audio {
+  position: absolute;
+  left: 150px;
+  top: 10px;
+}
+
+#rant {
+  font-size: 90%;
+}
